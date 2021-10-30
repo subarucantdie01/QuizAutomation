@@ -22,7 +22,7 @@ namespace QuizAutomation
 
             edgeDriver.SwitchTo().Window(edgeDriver.WindowHandles[1]);
 
-            edgeDriver.Url = "http://bilinch.net/hans";
+            edgeDriver.Url = "panel_url";
 
             edgeDriver.FindElementByXPath("//*[@id=\"username\"]").SendKeys("admin");
             edgeDriver.FindElementByXPath("//*[@id=\"password\"]").SendKeys("admin123" + Keys.Enter);
