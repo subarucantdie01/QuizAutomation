@@ -29,7 +29,7 @@ namespace QuizAutomation
 
             Thread.Sleep(100);
 
-            edgeDriver.Url = "http://bilinch.net/hans/questions.php";
+            edgeDriver.Url = "panel_url/questions.php";
 
             PropertiesFile dataProperties = Properties.GetPropertiesFileLocally("data.properties");
 
